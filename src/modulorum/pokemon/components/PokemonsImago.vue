@@ -7,7 +7,7 @@
     class="brightness-0 h-[200px]" />
 
     <img
-    v-else="!revelarepokemon"
+    v-else="revelarepokemon"
     :src="pokemonImago"
     alt=""
     class="h-[200px]" />
